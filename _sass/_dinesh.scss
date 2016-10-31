@@ -1,0 +1,8 @@
+.My--Icon{
+	margin:150px auto 20px;
+	text-align: center;
+	.Image{
+		@extend .Profile--XLarge;
+		@extend .imgFill;
+	}
+}
