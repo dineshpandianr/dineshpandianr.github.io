@@ -1,0 +1,1017 @@
+.Gird--Outline {
+  margin: -15px;
+}
+.Gird--Outline:before {
+  content: " ";
+  display: table;
+}
+.Gird--Outline:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.Grid {
+  margin: 7.5px 7.5px 0;
+}
+
+@media (min-width: 240px) {
+  .Grid--XSmall-1 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--XSmall-1 .Covered {
+    float: left;
+    width: 100%;
+  }
+  .Grid--XSmall-1 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--XSmall-2 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--XSmall-2 .Covered {
+    float: left;
+    width: 50%;
+  }
+  .Grid--XSmall-2 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--XSmall-3 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--XSmall-3 .Covered {
+    float: left;
+    width: 33.33333%;
+  }
+  .Grid--XSmall-3 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--XSmall-4 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--XSmall-4 .Covered {
+    float: left;
+    width: 25%;
+  }
+  .Grid--XSmall-4 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--XSmall-5 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--XSmall-5 .Covered {
+    float: left;
+    width: 20%;
+  }
+  .Grid--XSmall-5 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--XSmall-6 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--XSmall-6 .Covered {
+    float: left;
+    width: 16.66667%;
+  }
+  .Grid--XSmall-6 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--XSmall-7 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--XSmall-7 .Covered {
+    float: left;
+    width: 14.28571%;
+  }
+  .Grid--XSmall-7 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--XSmall-8 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--XSmall-8 .Covered {
+    float: left;
+    width: 12.5%;
+  }
+  .Grid--XSmall-8 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--XSmall-9 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--XSmall-9 .Covered {
+    float: left;
+    width: 11.11111%;
+  }
+  .Grid--XSmall-9 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--XSmall-10 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--XSmall-10 .Covered {
+    float: left;
+    width: 10%;
+  }
+  .Grid--XSmall-10 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--XSmall-11 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--XSmall-11 .Covered {
+    float: left;
+    width: 9.09091%;
+  }
+  .Grid--XSmall-11 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--XSmall-12 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--XSmall-12 .Covered {
+    float: left;
+    width: 8.33333%;
+  }
+  .Grid--XSmall-12 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--XSmall-1 {
+    float: left;
+    display: block;
+    width: 8.33333%;
+  }
+  .Cover--XSmall-1 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--XSmall-2 {
+    float: left;
+    display: block;
+    width: 16.66667%;
+  }
+  .Cover--XSmall-2 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--XSmall-3 {
+    float: left;
+    display: block;
+    width: 25%;
+  }
+  .Cover--XSmall-3 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--XSmall-4 {
+    float: left;
+    display: block;
+    width: 33.33333%;
+  }
+  .Cover--XSmall-4 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--XSmall-5 {
+    float: left;
+    display: block;
+    width: 41.66667%;
+  }
+  .Cover--XSmall-5 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--XSmall-6 {
+    float: left;
+    display: block;
+    width: 50%;
+  }
+  .Cover--XSmall-6 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--XSmall-7 {
+    float: left;
+    display: block;
+    width: 58.33333%;
+  }
+  .Cover--XSmall-7 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--XSmall-8 {
+    float: left;
+    display: block;
+    width: 66.66667%;
+  }
+  .Cover--XSmall-8 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--XSmall-9 {
+    float: left;
+    display: block;
+    width: 75%;
+  }
+  .Cover--XSmall-9 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--XSmall-10 {
+    float: left;
+    display: block;
+    width: 83.33333%;
+  }
+  .Cover--XSmall-10 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--XSmall-11 {
+    float: left;
+    display: block;
+    width: 91.66667%;
+  }
+  .Cover--XSmall-11 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--XSmall-12 {
+    float: left;
+    display: block;
+    width: 100%;
+  }
+  .Cover--XSmall-12 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--XSmall-Center {
+    float: none !important;
+    margin: auto;
+  }
+
+  .Cover--XSmall-None {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .Grid--Small-1 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Small-1 .Covered {
+    float: left;
+    width: 100%;
+  }
+  .Grid--Small-1 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Small-2 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Small-2 .Covered {
+    float: left;
+    width: 50%;
+  }
+  .Grid--Small-2 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Small-3 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Small-3 .Covered {
+    float: left;
+    width: 33.33333%;
+  }
+  .Grid--Small-3 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Small-4 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Small-4 .Covered {
+    float: left;
+    width: 25%;
+  }
+  .Grid--Small-4 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Small-5 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Small-5 .Covered {
+    float: left;
+    width: 20%;
+  }
+  .Grid--Small-5 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Small-6 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Small-6 .Covered {
+    float: left;
+    width: 16.66667%;
+  }
+  .Grid--Small-6 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Small-7 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Small-7 .Covered {
+    float: left;
+    width: 14.28571%;
+  }
+  .Grid--Small-7 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Small-8 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Small-8 .Covered {
+    float: left;
+    width: 12.5%;
+  }
+  .Grid--Small-8 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Small-9 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Small-9 .Covered {
+    float: left;
+    width: 11.11111%;
+  }
+  .Grid--Small-9 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Small-10 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Small-10 .Covered {
+    float: left;
+    width: 10%;
+  }
+  .Grid--Small-10 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Small-11 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Small-11 .Covered {
+    float: left;
+    width: 9.09091%;
+  }
+  .Grid--Small-11 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Small-12 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Small-12 .Covered {
+    float: left;
+    width: 8.33333%;
+  }
+  .Grid--Small-12 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Small-1 {
+    float: left;
+    display: block;
+    width: 8.33333%;
+  }
+  .Cover--Small-1 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Small-2 {
+    float: left;
+    display: block;
+    width: 16.66667%;
+  }
+  .Cover--Small-2 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Small-3 {
+    float: left;
+    display: block;
+    width: 25%;
+  }
+  .Cover--Small-3 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Small-4 {
+    float: left;
+    display: block;
+    width: 33.33333%;
+  }
+  .Cover--Small-4 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Small-5 {
+    float: left;
+    display: block;
+    width: 41.66667%;
+  }
+  .Cover--Small-5 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Small-6 {
+    float: left;
+    display: block;
+    width: 50%;
+  }
+  .Cover--Small-6 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Small-7 {
+    float: left;
+    display: block;
+    width: 58.33333%;
+  }
+  .Cover--Small-7 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Small-8 {
+    float: left;
+    display: block;
+    width: 66.66667%;
+  }
+  .Cover--Small-8 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Small-9 {
+    float: left;
+    display: block;
+    width: 75%;
+  }
+  .Cover--Small-9 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Small-10 {
+    float: left;
+    display: block;
+    width: 83.33333%;
+  }
+  .Cover--Small-10 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Small-11 {
+    float: left;
+    display: block;
+    width: 91.66667%;
+  }
+  .Cover--Small-11 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Small-12 {
+    float: left;
+    display: block;
+    width: 100%;
+  }
+  .Cover--Small-12 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Small-Center {
+    float: none !important;
+    margin: auto;
+  }
+
+  .Cover--Small-None {
+    display: none;
+  }
+}
+@media (min-width: 1099px) {
+  .Grid--Medium-1 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Medium-1 .Covered {
+    float: left;
+    width: 100%;
+  }
+  .Grid--Medium-1 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Medium-2 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Medium-2 .Covered {
+    float: left;
+    width: 50%;
+  }
+  .Grid--Medium-2 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Medium-3 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Medium-3 .Covered {
+    float: left;
+    width: 33.33333%;
+  }
+  .Grid--Medium-3 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Medium-4 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Medium-4 .Covered {
+    float: left;
+    width: 25%;
+  }
+  .Grid--Medium-4 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Medium-5 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Medium-5 .Covered {
+    float: left;
+    width: 20%;
+  }
+  .Grid--Medium-5 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Medium-6 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Medium-6 .Covered {
+    float: left;
+    width: 16.66667%;
+  }
+  .Grid--Medium-6 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Medium-7 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Medium-7 .Covered {
+    float: left;
+    width: 14.28571%;
+  }
+  .Grid--Medium-7 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Medium-8 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Medium-8 .Covered {
+    float: left;
+    width: 12.5%;
+  }
+  .Grid--Medium-8 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Medium-9 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Medium-9 .Covered {
+    float: left;
+    width: 11.11111%;
+  }
+  .Grid--Medium-9 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Medium-10 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Medium-10 .Covered {
+    float: left;
+    width: 10%;
+  }
+  .Grid--Medium-10 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Medium-11 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Medium-11 .Covered {
+    float: left;
+    width: 9.09091%;
+  }
+  .Grid--Medium-11 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Medium-12 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Medium-12 .Covered {
+    float: left;
+    width: 8.33333%;
+  }
+  .Grid--Medium-12 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Medium-1 {
+    float: left;
+    display: block;
+    width: 8.33333%;
+  }
+  .Cover--Medium-1 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Medium-2 {
+    float: left;
+    display: block;
+    width: 16.66667%;
+  }
+  .Cover--Medium-2 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Medium-3 {
+    float: left;
+    display: block;
+    width: 25%;
+  }
+  .Cover--Medium-3 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Medium-4 {
+    float: left;
+    display: block;
+    width: 33.33333%;
+  }
+  .Cover--Medium-4 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Medium-5 {
+    float: left;
+    display: block;
+    width: 41.66667%;
+  }
+  .Cover--Medium-5 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Medium-6 {
+    float: left;
+    display: block;
+    width: 50%;
+  }
+  .Cover--Medium-6 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Medium-7 {
+    float: left;
+    display: block;
+    width: 58.33333%;
+  }
+  .Cover--Medium-7 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Medium-8 {
+    float: left;
+    display: block;
+    width: 66.66667%;
+  }
+  .Cover--Medium-8 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Medium-9 {
+    float: left;
+    display: block;
+    width: 75%;
+  }
+  .Cover--Medium-9 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Medium-10 {
+    float: left;
+    display: block;
+    width: 83.33333%;
+  }
+  .Cover--Medium-10 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Medium-11 {
+    float: left;
+    display: block;
+    width: 91.66667%;
+  }
+  .Cover--Medium-11 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Medium-12 {
+    float: left;
+    display: block;
+    width: 100%;
+  }
+  .Cover--Medium-12 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Medium-Center {
+    float: none !important;
+    margin: auto;
+  }
+
+  .Cover--Medium-None {
+    display: none;
+  }
+}
+@media (min-width: 1400px) {
+  .Grid--Large-1 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Large-1 .Covered {
+    float: left;
+    width: 100%;
+  }
+  .Grid--Large-1 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Large-2 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Large-2 .Covered {
+    float: left;
+    width: 50%;
+  }
+  .Grid--Large-2 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Large-3 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Large-3 .Covered {
+    float: left;
+    width: 33.33333%;
+  }
+  .Grid--Large-3 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Large-4 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Large-4 .Covered {
+    float: left;
+    width: 25%;
+  }
+  .Grid--Large-4 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Large-5 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Large-5 .Covered {
+    float: left;
+    width: 20%;
+  }
+  .Grid--Large-5 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Large-6 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Large-6 .Covered {
+    float: left;
+    width: 16.66667%;
+  }
+  .Grid--Large-6 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Large-7 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Large-7 .Covered {
+    float: left;
+    width: 14.28571%;
+  }
+  .Grid--Large-7 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Large-8 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Large-8 .Covered {
+    float: left;
+    width: 12.5%;
+  }
+  .Grid--Large-8 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Large-9 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Large-9 .Covered {
+    float: left;
+    width: 11.11111%;
+  }
+  .Grid--Large-9 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Large-10 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Large-10 .Covered {
+    float: left;
+    width: 10%;
+  }
+  .Grid--Large-10 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Large-11 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Large-11 .Covered {
+    float: left;
+    width: 9.09091%;
+  }
+  .Grid--Large-11 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Grid--Large-12 {
+    margin: 7.5px 7.5px 0;
+  }
+  .Grid--Large-12 .Covered {
+    float: left;
+    width: 8.33333%;
+  }
+  .Grid--Large-12 .Covered .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Large-1 {
+    float: left;
+    display: block;
+    width: 8.33333%;
+  }
+  .Cover--Large-1 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Large-2 {
+    float: left;
+    display: block;
+    width: 16.66667%;
+  }
+  .Cover--Large-2 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Large-3 {
+    float: left;
+    display: block;
+    width: 25%;
+  }
+  .Cover--Large-3 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Large-4 {
+    float: left;
+    display: block;
+    width: 33.33333%;
+  }
+  .Cover--Large-4 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Large-5 {
+    float: left;
+    display: block;
+    width: 41.66667%;
+  }
+  .Cover--Large-5 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Large-6 {
+    float: left;
+    display: block;
+    width: 50%;
+  }
+  .Cover--Large-6 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Large-7 {
+    float: left;
+    display: block;
+    width: 58.33333%;
+  }
+  .Cover--Large-7 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Large-8 {
+    float: left;
+    display: block;
+    width: 66.66667%;
+  }
+  .Cover--Large-8 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Large-9 {
+    float: left;
+    display: block;
+    width: 75%;
+  }
+  .Cover--Large-9 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Large-10 {
+    float: left;
+    display: block;
+    width: 83.33333%;
+  }
+  .Cover--Large-10 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Large-11 {
+    float: left;
+    display: block;
+    width: 91.66667%;
+  }
+  .Cover--Large-11 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Large-12 {
+    float: left;
+    display: block;
+    width: 100%;
+  }
+  .Cover--Large-12 .Covered--Inside {
+    padding: 7.5px;
+  }
+
+  .Cover--Large-Center {
+    float: none !important;
+    margin: auto;
+  }
+
+  .Cover--Large-None {
+    display: none;
+  }
+}

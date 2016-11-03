@@ -1,0 +1,27 @@
+.Card{
+	padding: 15px;
+	min-height: 100px;
+	background: #fff;
+	border: 1px solid #e2e2e2;
+	border-radius: 4px;
+	@extend .flex;
+	@extend .align-center;
+	@extend .justify-center;
+	h4{
+		color: #555555;
+		font-weight: 300;
+		margin: 0px;
+	}
+	h6{
+		color: #555555;
+		font-weight: 300;
+		margin: 0px;
+	}
+}
+
+pre{
+	font-size: 18px !important;
+	font-weight: 500 !important;
+	background-color: #fff !important;
+	padding: 0 30px !important;
+}

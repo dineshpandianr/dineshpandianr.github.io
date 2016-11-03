@@ -1,0 +1,164 @@
+$gird_margin: 7.5px 7.5px 0;
+$grid_block: 12;
+
+.Gird--Outline{
+	margin: -15px;
+	&:before{
+		content: " ";
+    	display: table;
+	}
+	&:after{
+		content: " ";
+    	display: table;
+    	clear: both;
+	}
+}
+
+.Grid{
+	margin: $gird_margin;
+}
+
+
+@media (min-width: 240px) {
+	//Block XSmall 
+	@for $i from 1 through $grid_block {   
+		.Grid--XSmall-#{$i}{
+			margin: $gird_margin;
+			.Covered{
+			  float: left;
+				width: 100% / $i; 
+				.Covered--Inside{
+					padding: 7.5px;
+				}
+			}
+		}         
+	} 
+	
+
+	// Normal Grid XSmall
+	@for $i from 1 through $grid_block {   
+		.Cover--XSmall-#{$i}{
+			float: left;
+			display: block;
+			width: 100% / $grid_block * $i; 
+			.Covered--Inside{
+				padding: 7.5px;
+			}
+		}    
+	}
+	.Cover--XSmall-Center{
+		float: none !important;
+		margin: auto;
+	}
+	.Cover--XSmall-None{
+		display: none;
+	}
+}
+
+
+@media (min-width: 768px) {
+	//Block Small 
+	@for $i from 1 through $grid_block {   
+		.Grid--Small-#{$i}{
+			margin: $gird_margin;
+			.Covered{
+			    float: left;
+				width: 100% / $i; 
+				.Covered--Inside{
+					padding: 7.5px;
+				}
+			}
+		}         
+	}
+	
+	// Normal Grid Small
+	@for $i from 1 through $grid_block {   
+		.Cover--Small-#{$i}{
+			float: left;
+			display: block;
+			width: 100% / $grid_block * $i; 
+			.Covered--Inside{
+				padding: 7.5px;
+			}
+		}    
+	}
+	.Cover--Small-Center{
+		float: none !important;
+		margin: auto;
+	}
+	.Cover--Small-None{
+		display: none;
+	}
+
+}
+
+@media (min-width: 1099px) {
+	//Block Medium 
+	@for $i from 1 through $grid_block {   
+		.Grid--Medium-#{$i}{
+			margin: $gird_margin;
+			.Covered{
+			    float: left;
+				width: 100% / $i; 
+				.Covered--Inside{
+					padding: 7.5px;
+				}
+			}
+		}         
+	}
+
+	// Normal Grid Medium
+	@for $i from 1 through $grid_block {   
+		.Cover--Medium-#{$i}{
+			float: left;
+			display: block;
+			width: 100% / $grid_block * $i; 
+			.Covered--Inside{
+				padding: 7.5px;
+			}
+		}    
+	}
+	.Cover--Medium-Center{
+		float: none !important;
+		margin: auto;
+	}
+	.Cover--Medium-None{
+		display: none;
+	}
+}
+
+@media (min-width: 1400px) {
+	//Block Large 
+	@for $i from 1 through $grid_block {   
+		.Grid--Large-#{$i}{
+			margin: $gird_margin;
+			.Covered{
+			    float: left;
+				width: 100% / $i; 
+				.Covered--Inside{
+					padding: 7.5px;
+				}
+			}
+		}         
+	}
+
+	// Normal Grid Large
+	@for $i from 1 through $grid_block {   
+		.Cover--Large-#{$i}{
+			float: left;
+			display: block;
+			width: 100% / $grid_block * $i; 
+			.Covered--Inside{
+				padding: 7.5px;
+			}
+		}    
+	}
+	.Cover--Large-Center{
+		float: none !important;
+		margin: auto;
+	}
+	.Cover--Large-None{
+		display: none;
+	}
+	
+}
