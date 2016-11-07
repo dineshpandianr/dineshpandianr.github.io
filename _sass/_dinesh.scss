@@ -1,9 +1,13 @@
 .My--Icon{
-	margin:150px auto 20px;
+	margin:200px auto 20px;
 	text-align: center;
 	.Image{
 		@extend .Profile--XLarge;
 		@extend .imgFill;
+	}
+	h1{
+		font-weight: 200;
+		text-transform: uppercase;
 	}
 }
 
