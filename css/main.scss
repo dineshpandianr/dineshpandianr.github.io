@@ -43,9 +43,11 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "var/variable",
         "addons/gravity",
         "addons/inside",
         "elements/vision_grid",
+        "elements/topbar",
         "components/grid",
         "bootstrap",
         "dinesh"
