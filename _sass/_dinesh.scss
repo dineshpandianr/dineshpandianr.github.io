@@ -27,6 +27,7 @@ body{
   width: 100%;
   position: absolute;
   top: 0px;
+  left: 0px;
   z-index: -1;
   img{
   	width: 100%;
@@ -63,16 +64,36 @@ body{
 }
 
 .Section--Space{
-	padding: 100px 0;
+	padding: 95px 0;
 }
 .Section--Title{
   font-size: 30px;
   font-weight: 300;
   margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+.back-top {
+  width: 40px;
+  height: 40px;
+  background: $link;
+  border-radius: 50%;
+  text-align: center;
+  position: fixed;
+  z-index: 99;
+  display: none;
+  bottom: 50px;
+  right: 50px;
+  opacity: 0.8;
+  color: $white;
+  font-size: 20px;
+  line-height: 37px;
+  cursor: pointer;
 }
 
 @media (min-width: 1300px){
 	body{
 		max-width: 1300px;
+		margin: 0 auto;
 	}
 }

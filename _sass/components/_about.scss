@@ -1,0 +1,30 @@
+.Section--About{
+	padding-right: 150px;
+	p{
+		font-size: 18px;
+		line-height: 1.7;
+		margin-bottom: 20px;
+		color: $black;
+		font-weight: 400;
+		a{
+			color: $link; 
+			@extend .transition;
+			&:hover{
+				color: $link_hover;
+			}
+		}
+	}
+}
+
+.About--Hero{
+	position: relative;
+	.About--BG{
+		position: absolute;
+		z-index: -1;
+		left: 0px;
+		top: 0px;
+		img{
+			width: 100%;
+		}
+	}
+}
