@@ -18,13 +18,10 @@
 
 .About--Hero{
 	position: relative;
-	.About--BG{
-		position: absolute;
-		z-index: -1;
-		left: 0px;
-		top: 0px;
-		img{
-			width: 100%;
-		}
-	}
+	width: 100%;
+	min-height: 100vh;
+	background-size: cover;
+	background-position: 90%;
+	background-repeat: no-repeat;
+	background-image: url(../media/section_bg.jpg);
 }
