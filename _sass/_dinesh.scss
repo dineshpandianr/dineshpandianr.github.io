@@ -21,13 +21,13 @@ body{
 
 
 .Hero--PlayGround{
+  background-image: url(../media/dinesh_bg.jpg);
   width: 100%;
   height: 100vh;
   position: absolute;
   top: 0px;
   left: 0px;
   z-index: -1;
-  background-image: url(../media/dinesh_bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   img{
@@ -119,6 +119,16 @@ body{
     }
   }
 }
+
+@media (max-width: 500px){
+  .Hero--PlayGround{
+    background-position: 70% 50%;
+  }
+  .Hero--PlayGround{
+    background-image: url(../media/dinesh_bg_1.jpg);
+  }
+} 
+
 @media (max-width: 768px) {
   .Header{
     .navbar-brand{
