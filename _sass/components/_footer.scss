@@ -1,5 +1,8 @@
 footer{
 	text-align: center;
+	img{
+		width: 100%;
+	}
 	.Social--Network{
 		list-style: none;
     margin-top: 30px;
@@ -15,16 +18,22 @@ footer{
 		margin-bottom: 20px;
 		color: $grey;
 	}
-	.twitter{
-		color: $twitter;
-	}
-	.facebook{
-		color: $facebook;
-	}
-	.instagram{
-		color: $instagram;
-	}
-	.Medium{
-		color: $black;
-	}
+}
+.twitter{
+	color: $twitter;
+}
+.facebook{
+	color: $facebook;
+}
+.instagram{
+	color: $instagram;
+}
+.Medium{
+	color: $black;
+}
+.Uplabs{
+	color: $uplabs;
+}
+.Behance{
+	color: $behance;
 }
