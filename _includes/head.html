@@ -3,16 +3,27 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <title>{% if page.title %}{{ page.title }} - {{ site.description }}{% else %}{{ site.title }} - {{ site.description }} {% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="twitter:description" content="{{ site.description }}">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="http://dineshux.in/">
+
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/media/dp_logo.png">
+
+  <meta name="twitter:image" content="/media/dp_logo.png">
+  <meta name="twitter:site" content="@dineshux">
+  <meta name="twitter:creator" content="@dineshux">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
   <link rel="icon" href="/media/favicon.png" sizes="64x64" type="image/png">
   <link rel="shortcut icon" type="image/png" href="media/favicon.png">
-  <meta property="og:image" content="/media/dp_logo.png">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 </head>
