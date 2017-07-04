@@ -10,3 +10,12 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "readme.md"
+  - "config.rb"
+  - "Rakefile"
+  - "s3_website.yml"
+  - "run"
+  - "push.sh"
